@@ -1,0 +1,27 @@
+#cloud-config
+autoinstall:
+  version: 1
+  locale: en_US.UTF-8
+  keyboard:
+    layout: us
+  identity:
+    hostname: u24
+    # Gen hash:  openssl passwd -6 'YouPasswordHere'
+    username: ubuntu
+    password: "$6$VeLHbFCN4m7CAcnt$bemB.7GDm25ZG4krzciADCkDpDyzjcV9rxQVOI457bLhst9ugVsbKaoFTvPRn/4CQpxPwyeKn8piUw.dMDpkX1"
+  ssh:
+    install-server: true
+  storage:
+    layout:
+      name: lvm
+  packages:
+    - htop
+    - tmux
+    - jq
+    - curl
+    - wget
+    - build-essential
+    - python3
+    - python3-pip
+    - python3-venv
+    - git

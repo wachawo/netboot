@@ -1,0 +1,6 @@
+iso/
+.idea/
+.vscode/
+etc/tftp/
+.env
+
