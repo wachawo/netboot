@@ -1,4 +1,4 @@
-# PXE via ISO (Ubuntu/Kali) with Docker + MikroTik
+# PXEBoot Linux with Docker Compose + MikroTik
 
 ## Description
 #### Service for distributing Linux ISO images over the network using PXE and HTTP.
